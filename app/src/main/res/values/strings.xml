@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calcular Frete</string>
+    <string name="gas_price">Insira o valor do combustivel</string>
+    <string name="kml">Insira o consumo (km/L)</string>
+    <string name="end_of_trip">Insira o destino</string>
+    <string name="starting_trip">Insira o ponto de partida</string>
+    <string name="API_KEY">Sua chave de api</string>
+</resources>

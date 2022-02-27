@@ -1,6 +1,6 @@
 package com.eurico.calcularfrete.entity
 
 data class RouteCost(
-    val routeDistance: String = "XX",
-    val cost: String = "XX"
+    val routeDistance: String,
+    val cost: String
 )

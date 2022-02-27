@@ -24,6 +24,7 @@ import com.eurico.calcularfrete.entity.CalculateInfo
 @Composable
 fun formDistance() {
     val mainActivityViewlModel = viewModel(modelClass = MainActivityViewlModel::class.java)
+    val teste = mainActivityViewlModel.route.value
     val context = LocalContext.current
     val startRoute = remember{ mutableStateOf("") }
     val endRoute = remember{ mutableStateOf("") }

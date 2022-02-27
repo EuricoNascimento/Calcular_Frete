@@ -8,8 +8,7 @@ import javax.inject.Inject
 class DistanceMatrixRepository @Inject constructor(
     private val distanceMatrixApi: DistanceMatrixApi
 ) {
-    suspend fun getDistance(origin: String, destin: String, key: String = "${R.string.API_KEY}"): Distance{
+    suspend fun getDistance(destin: String, origin: String, key: String): Distance{
         return distanceMatrixApi.getDistance(origin = origin, destin = destin, key = key)
     }
-
 }
